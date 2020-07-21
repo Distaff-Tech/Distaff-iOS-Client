@@ -1,0 +1,6 @@
+framework module Pods_Distaff {
+  umbrella header "Pods-Distaff-umbrella.h"
+
+  export *
+  module * { export * }
+}

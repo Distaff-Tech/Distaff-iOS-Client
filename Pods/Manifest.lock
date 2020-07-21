@@ -1,0 +1,221 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AppAuth (1.3.0):
+    - AppAuth/Core (= 1.3.0)
+    - AppAuth/ExternalUserAgent (= 1.3.0)
+  - AppAuth/Core (1.3.0)
+  - AppAuth/ExternalUserAgent (1.3.0)
+  - Crashlytics (3.14.0):
+    - Fabric (~> 1.10.2)
+  - EasyToast (2.0.2)
+  - Fabric (1.10.2)
+  - FacebookCore (0.9.0):
+    - FBSDKCoreKit (~> 5.0)
+  - FBSDKCoreKit (5.13.1):
+    - FBSDKCoreKit/Basics (= 5.13.1)
+    - FBSDKCoreKit/Core (= 5.13.1)
+  - FBSDKCoreKit/Basics (5.13.1)
+  - FBSDKCoreKit/Core (5.13.1):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (5.13.1):
+    - FBSDKLoginKit/Login (= 5.13.1)
+  - FBSDKLoginKit/Login (5.13.1):
+    - FBSDKCoreKit (~> 5.0)
+  - Firebase/Auth (6.14.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 6.4.1)
+  - Firebase/CoreOnly (6.14.0):
+    - FirebaseCore (= 6.5.0)
+  - Firebase/Messaging (6.14.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 4.1.10)
+  - FirebaseAnalyticsInterop (1.5.0)
+  - FirebaseAuth (6.4.1):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.2)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseAuthInterop (1.0.0)
+  - FirebaseCore (6.5.0):
+    - FirebaseCoreDiagnostics (~> 1.0)
+    - FirebaseCoreDiagnosticsInterop (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.4)
+    - GoogleUtilities/Logger (~> 6.4)
+  - FirebaseCoreDiagnostics (1.1.2):
+    - FirebaseCoreDiagnosticsInterop (~> 1.0)
+    - GoogleDataTransportCCTSupport (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Logger (~> 6.2)
+    - nanopb (~> 0.3.901)
+  - FirebaseCoreDiagnosticsInterop (1.1.0)
+  - FirebaseInstanceID (4.2.8):
+    - FirebaseCore (~> 6.5)
+    - GoogleUtilities/Environment (~> 6.4)
+    - GoogleUtilities/UserDefaults (~> 6.4)
+  - FirebaseMessaging (4.1.10):
+    - FirebaseAnalyticsInterop (~> 1.3)
+    - FirebaseCore (~> 6.2)
+    - FirebaseInstanceID (~> 4.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.2)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Reachability (~> 6.2)
+    - GoogleUtilities/UserDefaults (~> 6.2)
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - GoogleDataTransport (3.2.0)
+  - GoogleDataTransportCCTSupport (1.2.3):
+    - GoogleDataTransport (~> 3.2)
+    - nanopb (~> 0.3.901)
+  - GoogleSignIn (5.0.2):
+    - AppAuth (~> 1.2)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleUtilities/AppDelegateSwizzler (6.4.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.4.0)
+  - GoogleUtilities/Logger (6.4.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (6.4.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.4.0)"
+  - GoogleUtilities/Reachability (6.4.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.4.0):
+    - GoogleUtilities/Logger
+  - GrowingTextView (0.7.2)
+  - GTMAppAuth (1.0.0):
+    - AppAuth/Core (~> 1.0)
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.3.0):
+    - GTMSessionFetcher/Full (= 1.3.0)
+  - GTMSessionFetcher/Core (1.3.0)
+  - GTMSessionFetcher/Full (1.3.0):
+    - GTMSessionFetcher/Core (= 1.3.0)
+  - InstagramLogin (1.3.0)
+  - IQKeyboardManager (6.5.4)
+  - MIBadgeButton-Swift (0.5)
+  - nanopb (0.3.9011):
+    - nanopb/decode (= 0.3.9011)
+    - nanopb/encode (= 0.3.9011)
+  - nanopb/decode (0.3.9011)
+  - nanopb/encode (0.3.9011)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - Protobuf (3.11.4)
+  - ScalingCarousel (3.0)
+  - SDWebImage (5.4.0):
+    - SDWebImage/Core (= 5.4.0)
+  - SDWebImage/Core (5.4.0)
+  - SKPhotoBrowser (6.1.0)
+  - "UITextView+Placeholder (1.3.3)"
+
+DEPENDENCIES:
+  - Alamofire
+  - Crashlytics
+  - EasyToast
+  - Fabric
+  - FacebookCore
+  - FBSDKLoginKit
+  - Firebase/Auth
+  - Firebase/Messaging
+  - GoogleSignIn
+  - GrowingTextView
+  - InstagramLogin
+  - IQKeyboardManager
+  - MIBadgeButton-Swift (from `https://github.com/mustafaibrahim989/MIBadgeButton-Swift.git`, branch `master`)
+  - NVActivityIndicatorView
+  - ScalingCarousel
+  - SDWebImage
+  - SKPhotoBrowser
+  - "UITextView+Placeholder"
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AppAuth
+    - Crashlytics
+    - EasyToast
+    - Fabric
+    - FacebookCore
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - Firebase
+    - FirebaseAnalyticsInterop
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCoreDiagnosticsInterop
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - GoogleDataTransport
+    - GoogleDataTransportCCTSupport
+    - GoogleSignIn
+    - GoogleUtilities
+    - GrowingTextView
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - InstagramLogin
+    - IQKeyboardManager
+    - nanopb
+    - NVActivityIndicatorView
+    - Protobuf
+    - ScalingCarousel
+    - SDWebImage
+    - SKPhotoBrowser
+    - "UITextView+Placeholder"
+
+EXTERNAL SOURCES:
+  MIBadgeButton-Swift:
+    :branch: master
+    :git: https://github.com/mustafaibrahim989/MIBadgeButton-Swift.git
+
+CHECKOUT OPTIONS:
+  MIBadgeButton-Swift:
+    :commit: 3c2638d2e6e46ec2e6dd978d8ada8863df3df5e6
+    :git: https://github.com/mustafaibrahim989/MIBadgeButton-Swift.git
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AppAuth: 73574f3013a1e65b9601a3ddc8b3158cce68c09d
+  Crashlytics: 540b7e5f5da5a042647227a5e3ac51d85eed06df
+  EasyToast: 2844de2158fe8d2313c6de81b5a858a909d82532
+  Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
+  FacebookCore: ba86524b66cfa86d0f8e65d08faa8504a9f732dd
+  FBSDKCoreKit: 8fb98209109fb684937f05d534305edb18c20207
+  FBSDKLoginKit: c7c6ffd9ca9ea45aee32361840af040ad8f6706a
+  Firebase: 0219bb4782eb1406f1b9b0628a2e625484ce910d
+  FirebaseAnalyticsInterop: 3f86269c38ae41f47afeb43ebf32a001f58fcdae
+  FirebaseAuth: 831577b184ecaba38bc886768c1c22a450cc44e3
+  FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
+  FirebaseCore: 632e05cc5e1199d9147122c16d92305eb04c34bd
+  FirebaseCoreDiagnostics: 511f4f3ed7d440bb69127e8b97c2bc8befae639e
+  FirebaseCoreDiagnosticsInterop: e9b1b023157e3a2fc6418b5cb601e79b9af7b3a0
+  FirebaseInstanceID: ce993a3c3670a8f5d47ce371ac5d143c560608c5
+  FirebaseMessaging: 089b7a4991425783384acc8bcefcd78c0af913bd
+  GoogleDataTransport: 8e9b210c97d55fbff306cc5468ff91b9cb32dcf5
+  GoogleDataTransportCCTSupport: 202d7cdf9c4a7d81a2bb7f7e7e1ba6faa421b1f2
+  GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
+  GoogleUtilities: 29bd0d8f850efbd28cff6d99e8b7da1f8d236bcf
+  GrowingTextView: 876bf42005b5e4a4fd740597db12caaf41f0fe6c
+  GTMAppAuth: 4deac854479704f348309e7b66189e604cf5e01e
+  GTMSessionFetcher: 43b8b64263023d4f32caa0b40f4c8bfa3c5f36d8
+  InstagramLogin: 55a3ab7aa6ee3f75bf06fdec1bb8f1e01e2c0b00
+  IQKeyboardManager: 72b359cd7e777e3a984cedbe05f8da45320cbb63
+  MIBadgeButton-Swift: 9e57309b00b168d75ca8fecb45bc75124a8ffddf
+  nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  Protobuf: 176220c526ad8bd09ab1fb40a978eac3fef665f7
+  ScalingCarousel: 7bf711d154b0c5c362c5dd4787ed7d13b489a4cb
+  SDWebImage: 5bf6aec6481ae2a062bdc59f9d6c1d1e552090e0
+  SKPhotoBrowser: 343de95d89dc7913763c5dda243cc6e606e4a168
+  "UITextView+Placeholder": c407b27599ea23cca425946fee3cf1db5d547008
+
+PODFILE CHECKSUM: f56ebb3e3b23a9425b6194ef61bdae6d124c47b4
+
+COCOAPODS: 1.8.4
